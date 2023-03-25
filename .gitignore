@@ -19,3 +19,4 @@ yarn-error.log*
 # vsc settings
 /.vscode
 
+node_modules
