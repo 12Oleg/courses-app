@@ -1,0 +1,25 @@
+.login__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid 2px blue;
+    margin: 15px 15px 15px 15px;
+    height: 500px;
+}
+
+.login__bottom {
+    margin-bottom: 20px;
+}
+
+.login__button {
+    text-align: center;
+}
+
+.login__text {
+    font-size: 12px;
+}
+
+.login__link {
+    text-decoration: none;
+}

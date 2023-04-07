@@ -1,0 +1,9 @@
+.courses__container {
+    border: solid 2px blue;
+    margin: 15px 15px 15px 15px;
+    padding: 10px 10px 15px 10px;
+}
+
+.coursesInfo__title {
+    text-align: center;
+}

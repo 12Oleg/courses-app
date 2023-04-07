@@ -1,0 +1,63 @@
+.createCourse__container {
+    display: flex;
+    flex-direction: column;
+    border: solid 2px blue;
+    margin: 15px 15px 15px 15px;
+    padding: 10px 10px 15px 10px;
+}
+
+.createCourse__title {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 10px 10px 0px 10px;
+}
+
+.createCourse_description {
+    margin: 10px 15px 0px 10px;
+}
+
+.createCourse__authors {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    border: solid 2px;
+    margin: 10px 10px 0px 10px;
+    padding: 25px 25px 25px 0px;
+}
+
+.createCourse__authors_add {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.createCourse__authors_duration {
+    margin-top: 20px;
+}
+
+.createCourse__authors_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.createCourse__authors_list_row {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.createCourse__authors_list_row_name {
+    width: 50%;
+}
+
+.createCourse__authors_list_row_button {
+    width: 50%;
+}

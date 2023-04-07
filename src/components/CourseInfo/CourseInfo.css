@@ -1,0 +1,33 @@
+.coursesInfo__container {
+    border: solid 2px blue;
+    margin: 15px 15px 15px 15px;
+    padding: 10px 10px 15px 10px;
+}
+
+.courseInfo__back {
+    text-decoration: none;
+}
+
+.coursesInfo__itemsContainer {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+.coursesInfo__description {
+    width: 70%;
+    margin: 20px;
+}
+
+.coursesInfo__items {
+    width: 30%;
+    margin: 20px;
+}
+
+.coursesInfo__item {
+    margin: 0px 10px 10px 10px;
+}
+
+.coursesInfo__item_author {
+    margin-top: 10px;
+}
