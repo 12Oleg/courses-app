@@ -43,7 +43,7 @@ function CreateCourse({ showAnotherTab }) {
 				<Button
 					text='Create Course'
 					onClick={(e) => {
-						if (title && description && duration && courseAuthor) {
+						if (title.trim() && description && duration && courseAuthor) {
 							e.preventDefault();
 							mockedCoursesList.push({
 								id: uuidv4(),
@@ -70,7 +70,7 @@ function CreateCourse({ showAnotherTab }) {
 						value={description}
 						onChange={(e) => setDescription(e.target.value)}
 						onBlur={(e) => {
-							if (description.length === 1) {
+							if (description.trim().length <= 1) {
 								alert('Text length should be at least 2 characters');
 								setDescription('');
 							}
@@ -106,7 +106,7 @@ function CreateCourse({ showAnotherTab }) {
 									]);
 									setNewAuthor('');
 								}
-								newAuthor.length > 1
+								newAuthor.trim().length > 1
 									? checkAuthorNameField()
 									: alert('Author name length should be at least 2 characters');
 							}}
