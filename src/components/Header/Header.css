@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border: solid 2px pink;
+    margin: 15px 15px 0px 15px;
+}
+
+.header__buttonName {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.header__button {
+    margin-left: 20px;
+    margin-right: 20px;
+}

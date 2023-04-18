@@ -1,0 +1,9 @@
+.inputlabel {
+    margin-right: 10px;
+}
+
+.inputfield {
+    border-color:rgb(226, 214, 43);
+    width: 280px;
+    height: 19px;
+}
