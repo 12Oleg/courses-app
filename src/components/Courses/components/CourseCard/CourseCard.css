@@ -1,0 +1,65 @@
+.courseCard__container {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    border: solid 2px green;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.courseCard__first-part {
+    width: 70%;
+    font-size: small;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.h1 {
+margin-top: 0;
+margin-bottom: 5px;
+}
+
+.courseCard__second-part {
+    width: 30%;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.authors_line {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.courseCard__buttons {
+    display: flex;
+    justify-content:right;
+    line-height: 1px; /*Без этого кнопки были не на одной линии*/
+}
+
+.courseCard__small-button-update {
+    background-color: white;
+    border-color: blueviolet;
+    height: 25px;
+    width: 23px;
+    margin-left: 5px;
+    background-image: url('../../../../common/Button/assets/update.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat:no-repeat;
+    
+}
+
+.courseCard__small-button-delete {
+    background-color: white;
+    border-color: blueviolet;
+    height: 25px;
+    width: 23px;
+    margin-left: 5px;
+    background-image: url('../../../../common/Button/assets/delete.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

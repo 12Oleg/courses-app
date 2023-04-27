@@ -1,0 +1,25 @@
+.registration__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid 2px blue;
+    margin: 15px 15px 15px 15px;
+    height: 500px;
+}
+
+.registration__bottom {
+    margin-bottom: 20px;
+}
+
+.registration__button {
+    text-align: center;
+}
+
+.registration__text {
+    font-size: 12px;
+}
+
+.registration__link {
+    text-decoration: none;
+}
