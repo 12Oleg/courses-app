@@ -1,0 +1,12 @@
+.searchBar__container {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.searchBar__button {
+    margin-left: 20px;
+}

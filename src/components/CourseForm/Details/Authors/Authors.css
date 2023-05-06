@@ -1,0 +1,15 @@
+.createCourse__authorsBlockTitle {
+    margin-bottom: 15px;
+}
+
+.createCourse__authorBlock {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.createCourse__authorName, .createCourse__authorButton  {
+    width: 50%;
+}

@@ -1,0 +1,6 @@
+.createCourse__title {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 10px 10px 0px 10px;
+}

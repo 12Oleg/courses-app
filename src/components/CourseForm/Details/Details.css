@@ -1,0 +1,24 @@
+.createCourse__details {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    border: solid 2px;
+    margin: 10px 10px 0px 10px;
+    padding: 25px 25px 25px 0px;
+}
+
+.createCourse__authorsAddAndDuration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.createCourse__authorsBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
